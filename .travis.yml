@@ -1,8 +1,8 @@
 os: osx
 language: objective-c
 before_install:
-  - brew tap sevki/gcc_cross_compilers
-  - brew tap homebrew/dupes
+  - brew tap sevki/homebrew-gcc_cross_compilers
+  - brew tap Homebrew/homebrew-core
 env:
   - ARCH=x86_64
   - ARCH=arm
